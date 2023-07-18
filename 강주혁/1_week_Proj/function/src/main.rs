@@ -1,13 +1,10 @@
 fn main() {
-    let y = {
-        let x = 3;
-        x
-    };
+    let num = 10;
+    let num2 = num;
 
-    println!("The value of y is: {y}");
-    print_labeled_measurement(5, 'h');
+    println!("num: {}",num);
 }
 
-fn print_labeled_measurement(measurement: i32, unit: char) {
-    println!("Measurement: {}{}", measurement, unit);
-}
+// fn f(s: &mut String) {
+//     s.push_str("!");
+// }
